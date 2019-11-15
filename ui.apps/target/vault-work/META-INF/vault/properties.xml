@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>lawfirms Content Package</comment>
+<entry key="createdBy">RAJAMOULI D</entry>
+<entry key="name">lawfirm-project.ui.apps</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="created">2019-10-29T16:26:51.126+0530</entry>
+<entry key="groupId">com.lawfirms</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">my-packages</entry>
+<entry key="description">Maven Multimodule project for lawfirms.</entry>
+<entry key="artifactId">lawfirm-project.ui.apps</entry>
+<entry key="path">/etc/packages/my-packages/lawfirm-project.ui.apps.zip</entry>
+</properties>

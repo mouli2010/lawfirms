@@ -1,0 +1,15 @@
+
+
+<div class="clearfix">
+<sly data-sly-use.model="com.aem.lawfirms.models.Headernavigation"/>
+			<div class="logo">
+				<a href="${item.link @extension='html'}"><img src="${properties.fileReference}" alt="LOGO" height="52" width="362"></a>
+			</div>
+			<ul class="navigation">
+<sly data-sly-list="${model.navigationItems}">
+				<li class="active">
+                <a href="${item.link @extension='html'}">${item.title}</a>
+				</li>
+               </sly>
+			</ul>
+		</div>

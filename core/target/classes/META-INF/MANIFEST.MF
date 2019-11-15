@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1572365975667
+Build-Jdk: 1.8.0_212
+Built-By: RAJAMOULI D
+Bundle-Description: Maven Multimodule project for lawfirms.
+Bundle-ManifestVersion: 2
+Bundle-Name: lawfirms Bundle
+Bundle-SymbolicName: com.lawfirms.lawfirm-project
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.aem.lawfirms.bean;version="0.0.1",com.aem.lawfirms.m
+ odels;uses:="com.aem.lawfirms.bean,javax.annotation,javax.inject,org.ap
+ ache.sling.api.resource,org.apache.sling.models.annotations";version="0
+ .0.1"
+Import-Package: com.aem.lawfirms.bean,javax.annotation,javax.inject,org.
+ apache.sling.api.resource;version="[2.10,3)",org.apache.sling.models.an
+ notations;version="[1.4,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Model-Packages: com.aem.lawfirms.models
+Tool: Bnd-3.3.0.201609221906

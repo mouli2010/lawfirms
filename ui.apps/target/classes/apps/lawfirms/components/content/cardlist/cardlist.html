@@ -1,0 +1,19 @@
+<div class="featured">
+<sly data-sly-use.model="com.aem.lawfirms.models.Cardlist"/>
+<h2>${model.headtext}</h2>
+			<ul class="clearfix">
+            <sly data-sly-list="${model.cardlistItems}">
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="${item.image}" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>${item.text}</b>${item.textarea}
+					</p>
+					<a href="${item.linkurl @extension='html'}" class="more">${item.linktext}</a>
+				</li>
+               </sly>
+			</ul>
+		</div>
