@@ -37,5 +37,6 @@ public class Cardlistbean {
 	public void setLinkurl(String linkurl) {
 		this.linkurl = linkurl;
 	}
+system.out.println("lawfirms");
 	
 }
